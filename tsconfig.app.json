@@ -8,7 +8,11 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "bundler",  
+    "baseUrl": ".",
+    "paths": {
+      "@av/components/*": ["./externals/av-components/lib/*"]
+    },
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
