@@ -1,16 +1,12 @@
-import { useState } from "react";
 import "./App.css";
+import { Button } from "@av/components/ui/Button";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <h1>Payroll</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <Button> Button in Payroll </Button>
       </div>
     </>
   );
