@@ -1,5 +1,5 @@
 {
-  "name": "av-payroll-engine",
+  "name": "@av/payroll-ui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
